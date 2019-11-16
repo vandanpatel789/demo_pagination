@@ -11,7 +11,6 @@ let appDelegate = UIApplication.shared.delegate as! AppDelegate
 //API VALUES DEFAULT CONSTANT
 let API_URL_DEFAULT:String = "https://hn.algolia.com/api/" //LIVE
 let API_VERSION = "v1/"
-let API_KEY = "qVvmf2hbPJHbxSYgAhBPxrwPmzGAnQUJ"
 
 struct APP {
     static let title            = "Demo"
@@ -20,10 +19,10 @@ struct APP {
 //Application Specific Messages
 
 struct APPERRORMESSAGES {
-    static let  noNetwork            = "Please check your internet connection"
+    static let  noNetwork            = "No internet connection"
     static let serverError           = "We are unable to connect with server, please try again later"
     
-    static let totalItems = "Total Posts "
+    static let totalItems = "Total Selected Posts "
     
 }
 

@@ -56,8 +56,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
            
         navigationBarAppearace.barTintColor = UIColor.purple
            
-       
-           let objHome = UIStoryboard.main.instantiateViewController(identifier: "navVC") as! UINavigationController
+       //Set Intial Views
+           let objHome = UIStoryboard.main.instantiateViewController(identifier: "intialNavView") as! UINavigationController
            self.window?.rootViewController = objHome
            
         

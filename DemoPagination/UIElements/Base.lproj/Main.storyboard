@@ -10,7 +10,7 @@
         <!--Navigation Controller-->
         <scene sceneID="4rr-yd-NoP">
             <objects>
-                <navigationController storyboardIdentifier="navVC" id="seo-ow-Ydj" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="intialNavView" id="seo-ow-Ydj" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Lt1-nR-hmS">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
